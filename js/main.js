@@ -48,6 +48,7 @@ function startGame() {
         if (snake[0].x === snake[index].x && snake[0].y === snake[index].y) {
             clearInterval(jogo);
             alert(`Game Over \u{2639}\u{FE0F}`);
+            alert('Atualize a página para jogar novamente');
         }
     }
 
