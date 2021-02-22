@@ -79,4 +79,3 @@ function startGame() {
 }
 
 const jogo = setInterval(startGame, 100);
-document.getElementsByTagName('h1').innerHTML = `\u{2639}\u{FE0F}`;
